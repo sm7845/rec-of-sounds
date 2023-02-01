@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Trade+Winds&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Trade+Winds&display=swap"
+    rel="stylesheet">
+  <title>Aplicación de identificación de sonido</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- api lm5 modelo de reconocimiento de sonidos -->
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!-- https://teachablemachine.withgoogle.com/models/HVmAWN4sd/ -->
+
+<body>
+  <div class="col-xs-12 header_div text-center">
+    <h2>Aliens controlados por sonido</h2>
+    <p>Nota: Haz diferentes sonidos como aplausos, chasquidos o campanas para hacer bailar a los aliens</p>
+  </div>
+
+  <div class="main_div">
+    <center>
+      <br>
+      <button onclick="startClassification();" class="btn btn-warning">Detectar</button>
+      <h3 id="result_label"> lo que escuchas es... </h3>
+      <h4 id="result_confidence"> porcentaje de parecido... </h4>
+      <br> <img src="aliens-01.png" id="aliens-01" width="300" height="300">
+      <img src="aliens-02.png" id="aliens-02" width="300" height="300">
+      <img src="aliens-03.png" id="aliens-03" width="300" height="300">
+      <img src="aliens-04.png" id="aliens-04" width="300" height="300">
+    </center>
+  </div>
+  <br>
+  <div class="copy_right_footer">
+    <h5>Creado por: Santiago Miguel Luengas Zambrano.</h5>
+  </div>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

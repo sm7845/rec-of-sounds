@@ -1,0 +1,45 @@
+body {
+    font-family: 'Are You Serious', cursive;
+    font-family: 'Trade Winds', cursive;
+    background-color: #ce0000;
+}
+
+.main_div button {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px
+}
+
+.main_div h3 {
+    font-family: 'Inconsolata', monospace;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
+
+.header_div p {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header_div {
+    background: rgb(90, 8, 8);
+    color: #ce2700;
+}
+.main_div {
+    background-color: rgb(255, 0, 0);
+}
